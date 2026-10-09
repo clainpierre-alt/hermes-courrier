@@ -1,0 +1,36 @@
+# Secrets et identifiants — ne doivent JAMAIS être publiés
+.env
+.env.*
+*.token
+token*.json
+*_token*.json
+credentials*.json
+creds.json
+google_token*.json
+*_secret*
+*.key
+*.pem
+
+# Configuration locale (contient des adresses et des numéros)
+config.json
+config.local.json
+
+# État et journaux d'exécution
+data/
+*.lock
+*.log
+state.json
+mail_state.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Éditeurs / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp

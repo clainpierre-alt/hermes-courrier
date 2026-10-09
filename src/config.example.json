@@ -1,0 +1,16 @@
+{
+  "token_path": "/chemin/vers/google_token_assistant.json",
+  "mailbox": "boite-assistant@exemple.com",
+  "send_as": "boite-principale@exemple.com",
+  "subject_keyword": "Hermes",
+  "allowlist": [
+    "adresse-autorisee@exemple.com"
+  ],
+  "token": "",
+  "notify_secret": "",
+  "host": "127.0.0.1",
+  "port": 9120,
+  "public_url": "",
+  "max_per_pass": 3,
+  "dry_run": true
+}
